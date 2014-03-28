@@ -5,9 +5,8 @@
 .classpath
 .project
 .settings/
-
 .gradle/
 build/
 target/
-
 mods/
+target/
