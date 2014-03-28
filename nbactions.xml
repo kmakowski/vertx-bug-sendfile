@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-vertx:runMod</actionName>
+            <displayName>vertx:runMod</displayName>
+            <goals>
+                <goal>vertx:runMod</goal>
+            </goals>
+        </action>
+        <action>
+            <actionName>CUSTOM-clean compile vertx:runMod</actionName>
+            <displayName>clean compile vertx:runMod</displayName>
+            <goals>
+                <goal>clean</goal>
+                <goal>compile</goal>
+                <goal>vertx:runMod</goal>
+            </goals>
+        </action>
+    </actions>
